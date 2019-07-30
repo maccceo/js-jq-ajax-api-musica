@@ -26,12 +26,37 @@ header img {
     margin-top: 10px;
 }
 
+.genre-selector {
+    display: flex;
+    justify-content: center;
+}
+
+.genre-button {
+    list-style: none;
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 50px;
+    padding-bottom: 6px;
+    cursor: pointer;
+}
+
+.genre-button:hover {
+    transform: scale(0.95);
+}
+
+.selected {
+    border-bottom: 4px solid #00D764;
+}
+
 .cds-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    padding: 100px 0;
+    padding-bottom: 100px;
 }
 
 .cd {
